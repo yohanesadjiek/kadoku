@@ -17,6 +17,15 @@ Route::get('/', function () {
 Route::get('awal', function () {
     return view('index');
 });
+Route::get('anak', function () {
+    return view('index2');
+});
+Route::get('remaja', function () {
+    return view('index3');
+});
+Route::get('dewasa', function () {
+    return view('index4');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

@@ -61,6 +61,10 @@ body {
   color: #333;
 }
 
+.bg{
+  background-color: #35B3A2;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #2B2D42;
   font-weight: 700;
@@ -1015,6 +1019,7 @@ textarea.input {
   box-shadow: 0px 0px 0px 0px #E4E7ED, 0px 0px 0px 1px #E4E7ED;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
+  background-color:white;
 }
 
 .product:hover {
@@ -1049,8 +1054,8 @@ textarea.input {
 }
 
 .product .product-img .product-label>span.new {
-  background-color: #35B3A2;
-  border-color: #35B3A2;
+  background-color: #E24045;
+  border-color: #E24045;
   color: #FFF;
 }
 
@@ -1108,7 +1113,7 @@ textarea.input {
 }
 
 .product .product-body .product-rating>i.fa-star {
-  color: #35B3A2;
+  color: #F0BB46;
 }
 
 .product .product-body .product-rating:after {
